@@ -4,7 +4,7 @@ ESP-IDF C++ project to read DHT22 temperature/humidity sensor and send data to a
 - Measurement values are sent to a web page via WiFi.
 - After measurement ESP32 goes to deep sleep for an interval to minimize power consumption. The interval length can be given in the web page.
 - When the interval has passed ESP32 reboots to do another measurement.
-- Temperature and humidity history is shown graphically in the the web page. See https://helsinkiweather.000webhostapp.com/weather.php for an example.
+- Temperature and humidity history is shown graphically in the the web page. See http://www.tempes.com/weather.php for an example.
 - DHT22 sensor driver is from https://github.com/gosouth/DHT22-cpp.
 
 ### Configure the project
